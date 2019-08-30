@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 600px;
+  background-color: #F7EF9E;
+}
+
+.login-bar {
+  display: block;
+  float: left;
+  position: absolute;
+  left: 80%;
+}
+.login-bar li {
+  display: block;
+  float: left;
+  padding: 20px 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+header {
+  flex-grow: 1;
+  height: 80px;
+  position: relative;
+}
+.bar {
+  flex-grow: 1;
+  height: 50px;
+}
+.main, .content {
+  display: flex;
+  flex-grow: 1;
+  height: 600px;
+  /* width: 500px; */
+
+}
+header h1 {
+  width: 500px;
+  display: block;
+  float: left;
+  margin-left: 30px;
+}
+.menu-bar {
+  display: block;
+  float: left;
+  width: 1000px;
+  height: 100px;
+  background-color: #e33;
+}
+a {
+  text-decoration: none;
+}
+.menu-bar ul {
+  display: block;
+  float: left;
+  color: white;
+  list-style-type: none;
+}
+ul li:last-child {
+  border-right: 0 none;
+
+}
+.menu-bar ul li{
+  float: left;
+  border: 2px solid white;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding-left: 60px;
+}
+ul li a {
+  display: block;
+  color: #fff;
+}
+ul li ul {
+  display: none;
+}
+section {
+  background-color: grey;
+  height: 600px;
+  flex-grow: 1;
+}
+footer {
+  display: block;
+  float: left;
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #AFDEF7;
+  align-items: stretch;
+}
+.item-bar{
+  margin-top: 5px;
+  padding: 0;
+}
+.item-bar li {
+  display: block;
+  float: left;
+  font-size: 25px;
+  padding: 0 50px;
+  text-align: center;
+  /* border: 1px solid #fff; */
+}
+.items {
+  list-style: none;
+  margin: 10px 10px;
+  padding: 0;
+}
+.items li {
+  width: 190px;
+  text-align: center;
+  height: 240px;
+  float: left;
+  margin: 20px 10px;
+  font-size: 15px;
+}
+.items b {
+  display: block;
+  margin: 5px 0;
+  font-weight: normal;
+}
+.category li {
+  background: #cb1212;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 160px;
+}
+.category li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
