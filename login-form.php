@@ -8,15 +8,15 @@
 			padding: 0;
 		}
 		.wrapper {
+			background-color: #B5F4E9;
 			width: 500px;
-			height: 240px;
+			height: 220px;
 			margin: 20px auto;
 			border: 4px solid #6e71bd;
 			text-align: center;
 			padding: 20px;
 			border-radius: 10px;
 		}
-
 		label {
 			color: #000;
 			display: inline-block;
@@ -24,7 +24,7 @@
 			margin-right:5px;
 			font-size: 18px;
 		}
-		input[type="text"] {
+		input[type="text"],input[type ="password"] {
 			border: 1px solid #a3a5e8;
 			width: 300px;
 			padding: 8px 14px;
@@ -32,18 +32,8 @@
 			margin-left: 20px;
 			border-radius: 4px;
 		}
-		input[type="password"] {
-			border: 1px solid #a3a5e8;
-			width: 300px;
-			padding: 8px 14px;
-			margin-bottom: 20px;
-			margin-left: 20px;
-			border-radius: 4px;
-		}
-
 		#password {
 			margin-left: -5px;
-
 		}
 		input[type="submit"] {
 			border: 1px solid #7C1A34;
@@ -53,27 +43,15 @@
 			margin-bottom: 20px;
 			transition: 0.5s ease;
 			border-radius: 5px;
+			margin-top: 5px;
 		}
 		input:hover {
 			background: #AAA;
 			cursor: pointer;
 		}
-		#error {
-			text-align: center;
-			background: red;
-			color: #000;
-			width: 300px;
-			border-radius: 10px;
-			margin-left: 1050px;
-			height: 40px;
-			line-height: 40px;
-			display: none;
-			overflow: hidden;
-		}
 	</style>
 </head>
 <body>
-	<p id="error">Please Try Again!</p>
 	<div class="wrapper">
 
 		<h1>Login Form</h1><br>
