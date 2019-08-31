@@ -31,15 +31,18 @@ include("confs/config.php");
       <?php while ($row = mysqli_fetch_assoc($items)): ?>
       <li>
       <img src="photos/<?php echo $row['photo'] ?>" height="100">
+      <img src="photos/<?php echo $row['photo1'] ?>" height="100">
+      <img src="photos/<?php echo $row['photo2'] ?>" height="100">
+
+
       <i>
            <?php echo $row['name'] ?>
       </i>
       <p>$ <?php echo $row['price'] ?></p>
 
-      <b>
+      <p>
            <?php echo $row['description'] ?>
-
-      </b>
+      </p>
       </li>
       <?php
       $user_id = $row['user_id'];

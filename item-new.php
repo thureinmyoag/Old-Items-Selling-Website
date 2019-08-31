@@ -81,7 +81,9 @@ session_start();
         </select>
 
         <label for="photo">Photo</label>
-        <input type="file" name="photo" id="photo" multiple>
+        <input type="file" name="photo" id="photo">
+        <input type="file" name="photo1" id="photo">
+        <input type="file" name="photo2" id="photo">
         <br><br>
         <input type="submit"  value="Add New Item">
       </form>

@@ -65,6 +65,8 @@ if (!isset($_SESSION['loggedin'])) {
 									<?php while ($row = mysqli_fetch_assoc($items)): ?>
 										<li>
 											<img src="photos/<?php echo $row['photo'] ?>" height="100">
+											<img src="photos/<?php echo $row['photo1'] ?>" height="100" alt="...">
+
 											<b>
 												<?php echo $row['name'] ?>
 											</b>
@@ -77,16 +79,6 @@ if (!isset($_SESSION['loggedin'])) {
 								</div>
 							</main>
 							<footer><p><?php echo date("Y");?> All Rights Reserved. Crafted By Thurein Myo Ag.</p></footer>
-
 			</div>
-
-
-
-
-
-
-
-
-
 	</body>
 </html>

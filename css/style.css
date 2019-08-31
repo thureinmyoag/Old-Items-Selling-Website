@@ -1,20 +1,17 @@
 .container {
   display: grid;
   grid-template-columns: repeat(12, 12fr);
-  grid-auto-rows: 80px 1200px 50px;
+  grid-auto-rows: 80px 100% 50px;
 }
 header {
   grid-column: span 12;
-  /* background-color: #004C3F; */
   display: flex;
   background-color: #000;
   border-top: 8px solid  #21b79e;
 }
-
 header > div:first-child {
   font-weight: bold;
 }
-
 header > div:nth-child(2) {
   margin-left: auto;
 }
@@ -75,10 +72,14 @@ footer > p {
   display: block;
   height: 50px;
   padding-top: 20px;
+  background-color: #7DCBF2;
+  border-bottom: 2px dotted #fff;
 }
 .bar a {
 	display: block;
 	float: left;
-	margin-left: 5px;
-
+	margin-left: 30px;
+  color: #000;
+  border-bottom: none;
+  font-size: 25px;
 }
